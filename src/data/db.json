@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "user": "Mark",
+      "password": "1234",
+      "email": "mail.com"
+    }
+  ],
+  "saved": [
+    {
+      "movies": [
+        {
+          "id": "tt0372784",
+          "title": "Batman Begins (2005)",
+          "poster": "https://m.media-amazon.com/images/M/MV5BOTY4YjI2N2MtYmFlMC00ZjcyLTg3YjEtMDQyM2ZjYzQ5YWFkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
+          "watched": true
+        },
+        {
+          "id": "tt7286456",
+          "title": "Joker (2019)",
+          "poster": "https://m.media-amazon.com/images/M/MV5BNGVjNWI4ZGUtNzE0MS00YTJmLWE0ZDctN2ZiYTk2YmI3NTYyXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg",
+          "watched": true
+        },
+        {
+          "id": "tt1877830",
+          "title": "The Batman (2022)",
+          "poster": "https://m.media-amazon.com/images/M/MV5BMDdmMTBiNTYtMDIzNi00NGVlLWIzMDYtZTk3MTQ3NGQxZGEwXkEyXkFqcGdeQXVyMzMwOTU5MDk@._V1_SX300.jpg",
+          "watched": true
+        }
+      ],
+      "id": "Mark"
+    }
+  ]
+}
