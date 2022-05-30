@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { Link } from "react-router-dom";
-import styled from "styled-components";
 import { Card, Row, Col } from 'react-bootstrap';
 import useAuth from '../AuthProvider';
 import FetchData from '../data/FetchData';
+import PropTypes from 'prop-types';
 
 export default function MovieCard(props) {
   const [refresh, setRefresh] = useState(false);

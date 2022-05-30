@@ -4,6 +4,7 @@ import { Container } from 'react-bootstrap';
 import { Saved, Home, Login } from "./pages";
 import Navigation from './components/Navigation';
 import AuthProvider from './AuthProvider';
+import PropTypes from 'prop-types';
 
 function App() {
   function RequireAuth({ children }) {
