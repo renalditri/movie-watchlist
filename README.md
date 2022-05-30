@@ -11,6 +11,7 @@ npm install
 ```
 Lalu sebelum menjalankan aplikasi, perlu dinyalakan server [json-server](https://github.com/typicode/json-server) menggunakan command
 ```sh
+cd src/data
 json-server --watch db.json --port 3004
 ```
 Di terminal yang berbeda, lalu jalankan aplikasi menggunakan command

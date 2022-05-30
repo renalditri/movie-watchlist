@@ -37,3 +37,7 @@ export function AuthProvider({ children }) {
 export default function AuthConsumer() {
   return React.useContext(authContext);
 }
+
+AuthProvider.propTypes = {
+  children: PropTypes.node
+};

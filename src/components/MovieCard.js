@@ -60,3 +60,12 @@ export default function MovieCard(props) {
     </Col>
   )
 }
+
+MovieCard.propTypes = {
+  id: PropTypes.number,
+  keyprop: PropTypes.number,
+  title: PropTypes.string,
+  src: PropTypes.string,
+  size: PropTypes.number,
+  saved: PropTypes.object
+};
